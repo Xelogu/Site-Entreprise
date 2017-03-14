@@ -1,0 +1,39 @@
+<!--Document au format HTML-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Mon entreprise : contact</title>
+		<link rel="stylesheet" type="text/css" href="Styles.css">
+		<h1 class="titre">Formulaire</h1>
+		<a href="home.html"><img src="images/ankama.jpg"/></a>
+	</head>
+		<!-- Corps de la page-->
+	<body>
+		<h2>Menu</h2>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="partenaires.html">Partenaires</a></li>
+				<li><a href="projets.html">projets</a></li>
+				<li><a href="contact.html">contact</a></li>
+			</ul>
+
+
+<section>
+		<h1>Formulaire</h1>
+		<article>
+			<form>
+				<form method="POST" action="#">
+				
+				<label for="nom">Nom</label> : <input type="text" name="nom" id="nom" placeholder="Nom :"/>
+				<label for="prénom">prénom</label> : <input type="text" name="prénom" id="prénom" placeholder="prénom :" size="30" maxlength="40"/>
+				<label for="Password">entreprise</label> : <input type="text" name="entr" id="entr" placeholder="Entreprise :" size="30" maxlength="40"/>
+				<br>
+				<br>
+				<br>
+				<label for="des">Sujet</label> : <input type ="textarea" name="des" id="des" rows="10" cols="50" placeholder="Sujet :"></textarea><br>
+				<label for="message">Message :</label><br />
+       			<textarea name="message" id="message" placeholder="Message :"></textarea>
+				<input type="checkbox" name="conditions" id="conditions" /> <label for="conditions"><a href="conditions.html">Conditions générales d'utilisation</a></label>
+				<input type="submit" name="envoyer" value="Envoyer" onclick="affiche();">
+			</form>

@@ -1,0 +1,61 @@
+/*
+Theme name: Theme site portfolio
+Theme URI:ludus1B.com
+Author:Lirot Julien le bg
+Description:Theme css site web ludus 1B
+Version:1.0
+License:Ludus 1B
+License URI:Ludus1B.com
+Text Domain:Ludus1B
+*/
+
+*{
+		margin:2px;
+		padding:1px;
+}
+
+.titre{/*Appel de classe titre avec le . */
+	
+	Color:black;
+	/*font-size: 40px;/*Taille absolue*/
+	font-family:'Bubblegumsans';
+	font-style:italic;
+	font-weight: bold;
+	text-decoration:underline;
+	text-align:center;
+	background-color:rgba(179, 0, 0);
+	opacity:0.6;
+}
+
+.champs {
+height: 400px; /* Hauteur des champs */
+width: 50px; /* Longueur des champs */
+}
+
+#titre{/*Appel de l'id titre avec le # */
+	
+	Color:black;
+	/*font-size: xx-large;*/  /*Relative*/
+	/*font-size:1em;*/
+	/*font-size:1.3em;
+	font-size:0.8em*/
+	font-size:150%;
+	font-family:'Bubblegumsans';
+	font-style:oblique;
+	text-align: left;
+}
+
+
+body{
+	background-position: 30px 50px;
+	background-position: top right;
+	background-image: url("images/redback.jpg");
+	/*background-color:black;
+	color:white;*/
+}
+
+.swum img{
+	width:250px;
+	height:100px;
+	padding-right:100px;
+}
